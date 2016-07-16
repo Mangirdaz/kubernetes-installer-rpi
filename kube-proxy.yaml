@@ -23,7 +23,7 @@ spec:
       args:
         - "/hyperkube"
         - "proxy"
-        - "--master=http://rpi-master:8080"
+        - "--master=http://mj-master:8080"
         - "--v=2"
       securityContext:
         privileged: true

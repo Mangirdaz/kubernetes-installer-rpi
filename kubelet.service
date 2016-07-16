@@ -4,7 +4,7 @@ Documentation=https://github.com/kubernetes/kubernetes
 
 [Service]
 ExecStart=/usr/bin/kubelet  \
---api-servers=http://rpi-master:8080 \
+--api-servers=http://mj-master:8080 \
 --allow-privileged=true \
 --config=/etc/kubernetes/manifests \
 --v=2
